@@ -1,4 +1,4 @@
-📝 Description
+
 This is a real-time chat application built using the MERN stack – MongoDB, Express.js, React.js, and Node.js. It provides a clean and responsive user interface, handles real-time messaging with conversations, and includes user authentication to ensure a secure chat environment.
 
 The project is structured into a frontend built with React and a backend using Node.js and Express. Data is stored in MongoDB, and RESTful APIs manage the interaction between the client and server.
