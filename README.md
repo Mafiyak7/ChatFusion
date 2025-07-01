@@ -1,21 +1,44 @@
-
 # 💬 ChatFusion
 
-ChatFusion is an AI-powered chat interface built with **Streamlit**, **LangChain**, and **OpenAI's GPT models**. It offers a clean and interactive frontend with advanced conversational capabilities and support for document-based question answering using **Chat with PDF**.
+ChatFusion is a modern, real-time messaging web application that enables seamless communication between users. Designed with performance, scalability, and UX in mind, it supports private and group chats, user authentication, and real-time updates.
 
 ---
 
 ## 🚀 Features
 
-- ⚡ Streamlit-based responsive UI  
-- 📚 Chat with PDFs (using `LangChain` and `PyPDF`)  
-- 🔗 Vector DB and embeddings support  
-- 🧠 GPT-3.5/4 powered backend via OpenAI API  
-- 🛠 Modular structure for ease of development  
-- 🌐 Environment variable management with `.env`  
-- ✅ Chat memory and conversation history  
+- 🔐 Secure User Authentication (JWT/Session-based)
+- 💬 Real-time Messaging with Socket.IO
+- 👥 Private and Group Chats
+- 📝 Message status (delivered, read)
+- 🔎 User Search and Contact Management
+- 🖼️ Profile Pictures & Media Support
+- 🌓 Dark/Light Theme Toggle (optional)
+- 📱 Responsive UI across devices
 
+---
 
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Tailwind CSS / Bootstrap
+- Axios
+- React Router
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
+- Socket.IO (real-time communication)
+- JWT for authentication
+- Multer/Cloudinary (optional for file uploads)
+
+**Dev Tools & Deployment:**
+- Git & GitHub
+- Postman (API testing)
+- Render / Vercel / Netlify / Railway (deployment options)
+
+---
 ## 📁 Project Structure
 
 ChatFusion/
@@ -33,4 +56,23 @@ ChatFusion/
 ├── requirements.txt
 ├── README.md
 └── app.py
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/chatfusion.git
+cd chatfusion
+
+# Frontend setup
+cd client
+npm install
+npm start
+
+# Backend setup
+cd ../server
+npm install
+npm run dev
+
+
+
 
